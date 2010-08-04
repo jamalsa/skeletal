@@ -1,3 +1,6 @@
 [submodule "plugins/debug_kit"]
 	path = plugins/debug_kit
 	url = git://github.com/cakephp/debug_kit.git
+[submodule "plugins/asset_compress"]
+	path = plugins/asset_compress
+	url = git://github.com/markstory/asset_compress.git
