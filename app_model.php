@@ -31,6 +31,9 @@
  * @subpackage    cake.cake.libs.model
  */
 class AppModel extends Model {
+	var $recursive = -1;
+	var $behaviors = array('Containable');
+}
 /**
 * Stores the original string as set in 'className' as association options befor it gets changed
 */
