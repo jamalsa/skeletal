@@ -34,5 +34,5 @@
  */
 class AppController extends Controller {
 	var $components = array('DebugKit.Toolbar');
-	var $helpers = array('AssetCompress.AssetCompress');
+	var $helpers = array('Html', 'Form', 'AssetCompress.AssetCompress');
 }
