@@ -2,8 +2,7 @@
 /**
  * Application level Controller
  *
- * This file is application-wide controller file. You can put all
- * application-wide controller-related methods here.
+ * This file is application-wide controller file.
  *
  * PHP versions 4 and 5
  *
@@ -22,11 +21,11 @@
  */
 
 /**
- * This is a placeholder class.
- * Create the same file in app/app_controller.php
+ * This is application wide controller.
  *
- * Add your application-wide methods in the class below, your controllers
- * will inherit them.
+ * This AppController has included several features by default :
+ * - Integration with DebugKit plugin.
+ * - Integration with AssetCompress plugin from Mark Story.
  *
  * @package       cake
  * @subpackage    cake.cake.libs.controller
