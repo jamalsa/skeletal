@@ -48,3 +48,10 @@
  * Inflector::rules('plural', array('rules' => array(), 'irregular' => array(), 'uninflected' => array()));
  *
  */
+
+/**
+ * Make sure debug is off in production
+ */
+if (env('REMOTE_ADDR') == '127.0.0.1') {
+	Configure::write('debug', 2);
+}
